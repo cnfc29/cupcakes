@@ -25,6 +25,7 @@ module.exports = {
   plugins: ['@typescript-eslint', 'react', 'react-hooks'],
   rules: {
     '@typescript-eslint/default-param-last': 'off',
+    'import/prefer-default-export': 'off',
     'default-param-last': 'off',
     'no-void': 'off',
     'no-param-reassign': 'off',
